@@ -52,11 +52,13 @@
                 </div>
             </div>
         </nav>
+
+        <h1>Ronin316's Dominion Randomizer v0.1</h1>
         <div class="container" id="set_selection">
             <!-- TODO: style buttons -->
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="dominion_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/archive/b/b0/20161017143701%21Dominion_icon.png"
                             class="button_icon"
@@ -64,7 +66,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="dominion2_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/b/b0/Dominion_icon.png"
                             class="button_icon"
@@ -74,7 +76,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="intrigue_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/archive/c/cf/20161017144055%21Intrigue_icon.png"
                             class="button_icon"
@@ -83,7 +85,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="intrigue2_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/c/cf/Intrigue_icon.png"
                             class="button_icon"
@@ -94,7 +96,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="seaside_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/c/c5/Seaside_icon.png"
                             class="button_icon"
@@ -102,7 +104,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="alchemy_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/6/6a/Alchemy_icon.png"
                             class="button_icon"
@@ -112,7 +114,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="prosperity_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/f/fb/Prosperity_icon.png"
                             class="button_icon"
@@ -120,7 +122,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="cornucopia_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/2/20/Cornucopia_icon.png"
                             class="button_icon"
@@ -130,7 +132,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="hinterlands_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/2/28/Hinterlands_icon.png"
                             class="button_icon"
@@ -138,7 +140,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="dark_ages_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/1/1b/Dark_Ages_icon.png"
                             class="button_icon"
@@ -148,7 +150,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="guilds_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/3/36/Guilds_icon.png"
                             class="button_icon"
@@ -156,7 +158,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="adventures_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/5/5e/Adventures_icon.png"
                             class="button_icon"
@@ -166,7 +168,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="empires_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/2/2a/Empires_icon.png"
                             class="button_icon"
@@ -174,7 +176,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="nocturne_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/a/aa/Nocturne_icon.png"
                             class="button_icon"
@@ -184,7 +186,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="renaissance_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/4/4c/Renaissance_icon.png"
                             class="button_icon"
@@ -192,7 +194,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="menagerie_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/d/d4/Menagerie_%28expansion%29_icon.png"
                             class="button_icon"
@@ -202,7 +204,7 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="allies_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/3/3d/Allies_icon.png"
                             class="button_icon"
@@ -210,7 +212,7 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button>
+                    <button class="btn" id="promos_btn">
                         <img
                             src="http://wiki.dominionstrategy.com/images/archive/a/a0/20160923151117%21Promo_icon.png"
                             class="button_icon"
@@ -239,7 +241,9 @@
                 </div>
             </div>
         </div>
-
+        <div class="container">
+            <!-- TODO: This needs to be setup as a grid for displaying the selected cards -->
+        </div>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
